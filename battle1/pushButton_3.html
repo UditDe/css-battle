@@ -1,0 +1,44 @@
+<div class="outside-box"></div>
+<div class="outside-circle"></div>
+<div class="inner-blue-circle"></div>
+<div class="final-yellow-circle"></div>
+<style>
+	body {
+		background: #6592cf;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.outside-box {
+		z-index: -1;
+		position: absolute;
+		width: 312px;
+		height: 159px;
+		background: #243d83;
+	}
+	.outside-circle {
+		z-index: 1;
+		position: absolute;
+		height: 250px;
+		width: 250px;
+		border-radius: 50%;
+		background: #6592cf;
+	}
+	.inner-blue-circle {
+		z-index: 2;
+		position: absolute;
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		background: #243d83;
+	}
+	.final-yellow-circle {
+		z-index: 3;
+		position: absolute;
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		background: #eeb850;
+	}
+</style>
