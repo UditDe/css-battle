@@ -1,0 +1,32 @@
+<container>
+	<div class="up"></div>
+	<div class="down"></div>
+</container>
+<container>
+	<div class="up" style="background: #f7ec7d"></div>
+	<div class="down" style="background: transparent"></div>
+</container>
+<container>
+	<div class="up"></div>
+	<div class="down"></div>
+</container>
+<style>
+	body {
+		margin: 50px;
+		background: #62306d;
+		position: reative;
+		display: flex;
+	}
+	div {
+		width: 100px;
+		height: 100px;
+		border-radius: 0px 0px 50% 50%;
+		background: transparent;
+	}
+	.up {
+		transform: rotate(180deg);
+	}
+	.down {
+		background: #f7ec7d;
+	}
+</style>
