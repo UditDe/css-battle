@@ -1,0 +1,41 @@
+<div class="parent">
+	<div class="blue"></div>
+	<div class="yellow"></div>
+	<div class="white"></div>
+</div>
+<style>
+	body {
+		background: #e3516e;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 50px;
+	}
+	div {
+		width: 100px;
+		height: 100px;
+		background: #dd6b4d;
+	}
+	.parent {
+		background: transparent;
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+		position: reative;
+		display: flex;
+	}
+	.blue {
+		background: #51b5a9;
+		border-radius: 100px 0 0 0;
+	}
+	.yellow {
+		background: #fade8b;
+		border-radius: 0 100px 0 0;
+	}
+	.white {
+		position: absolute;
+		transform: translate(0px, 100px);
+		background: #f7f3d7;
+		border-radius: 0 0 0 100px;
+	}
+</style>
